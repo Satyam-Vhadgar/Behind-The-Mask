@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Behind The Mask</title>
+    <link rel="stylesheet" href="Home.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+  </head>
+
+  <body>
+
+    <div class="NavBar">
+        <div class="Logo">
+            <a href="Home.html"> <img src="BTM.png" alt="Logo"width="100%" height="100%"></a>
+        </div>
+
+      <ul>
+          <li><a class="active" href="Home.html">Home</a></li>
+          <li><a href="About.html">About</a></li>
+          <li><a href="Shows.html">Shows</a></li>
+          <li><a href="Gallery.html">Gallery</a></li>
+          <li><a href="Classes.html">Classes</a></li>
+          <li><a href="Contact.html">Contact</a></li>
+
+        </ul>
+
+    </div>
+    <div class="FirstPhotoDiv">
+          <div class="PhotoParallax">
+
+          </div>
+          <div class="Bigheading">
+              <h1> <span style="color:white;"> Behind</span>  <span style="color:#FE0865;">The</span> <span style="color:#D31919;">Mask</span></h1>
+          </div>
+          <div class="CursuieHeading">
+                <h4>Theater Company</h4>
+          </div>
+    </div>
+
+    <div class="MiddleDiv">
+            <div class="mySlides">
+
+                      <div class="Rectline">
+
+                      </div>
+
+                    <div class="Welcome">
+                      <h2>Welcome<br>To Our<br>Theater </h2>
+                    </div>
+
+                    <div class="Subheading">
+                      <h4>WHO WE ARE</h4>
+                    </div>
+
+                    <div class="Paragraph">
+                          <p>I'm a paragraph. Click here to edit and add <br>your own text. I'm a great place for you to tell <br> your story and let your customers know a little  <br>more about you.  </p>
+                    </div>
+                    <div class="MiddleDivButton">
+                    <a href="About.html">   <button class="button">Read More</button></a>
+                    </div>
+            </div>
+
+            <div class="mySlides">
+                    <div class="Rectline">
+
+                    </div>
+
+                    <div class="Welcome">
+                      <h2>Currently <br> On Show </h2>
+                    </div>
+
+                    <div class="Subheading">
+                      <h4 style="color:#D31919;">WHEN DARKNESS FALL</h4>
+                    </div>
+
+                    <div class="Paragraph">
+                          <p>I'm a paragraph. Click here to edit and add <br>your own text. I'm a great place for you to tell <br> your story and let your customers know a little  <br>more about you.  </p>
+                    </div>
+
+                    <div class="MiddleDivButton">
+                      <a href="Shows.html"><button class="button1">See All Shows</button></a>
+                    </div>
+
+            </div>
+
+            <div class="mySlides">
+
+                    <div class="Rectline">
+
+                    </div>
+
+                    <div class="Welcome">
+                      <h2>View Our <br> Gallery </h2>
+                    </div>
+
+                    <div class="Subheading">
+                      <h4>THEATRE IN ACTION</h4>
+                    </div>
+                    <div class="Paragraph">
+                          <p>I'm a paragraph. Click here to edit and add <br>your own text. I'm a great place for you to tell <br> your story and let your customers know a little  <br>more about you.  </p>
+                    </div>
+                    <div class="MiddleDivButton">
+                      <a href="Gallery.html"><button class="button">Meet The Team</button></a>
+                    </div>
+
+            </div>
+
+
+
+              <script>
+              var myIndex = 0;
+              carousel();
+
+              function carousel() {
+              var i;
+              var x = document.getElementsByClassName("mySlides");
+              for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+              }
+              myIndex++;
+              if (myIndex > x.length) {myIndex = 1}
+              x[myIndex-1].style.display = "block";
+              setTimeout(carousel, 4000); // Change image every 2 seconds
+              }
+              </script>
+
+    </div>
+
+    <div class="ThirdDiv">
+
+                    <div class="CursuieHeading1">
+                        <h4>Upcoming Shows</h4>
+                    </div>
+
+                    <div class="Photo1">
+                          <img src="Photo.jpg" alt="Artist" width="100%" height="100%">
+                    </div>
+                    <div class="RedDiv">
+                            <div class="RedDivContent">
+                                <h4>THURSDAY, DEC 14 <br> <span class="EightPm">AT 8 PM</span></h4>
+                            </div>
+                            <div class="ShowName">
+                                  <h2>The Flick</h2>
+                            </div>
+                            <div class="Arrow">
+                                  <img src="Arrow.png" alt="RightArrow" width="100%"height="100%">
+                            </div>
+                    </div>
+                    <div class="Photo2">
+                        <img src="Artist3.jpg" alt="Artist" width="100%" height="100%">
+                    </div>
+                    <div class="PinkDiv">
+                          <div class="PinkDivContent">
+                              <h4>TUESDAY, DEC 19 <br> <span class="EightPm">AT 8 PM</span></h4>
+                          </div>
+                          <div class="ShowName">
+                                <h2>Black Bird</h2>
+                          </div>
+                          <div class="Arrow">
+                                <img src="Arrow.png" alt="RightArrow" width="100%"height="100%">
+                          </div>
+                    </div>
+                    <div class="OurClass">
+                        <h4>Our Class</h4>
+                    </div>
+                    <div class="Photo3">
+                        <img src="Acting.jpg" alt="Artist" width="100%" height="100%">
+                    </div>
+                    <div class="BlackDiv">
+                          <div class="BlackDivContent">
+                                  <h2>Acting & Drama <br> <span class="ActingClass">Classes</span> </h2>
+                          </div>
+                        <a href="Classes.html">  <button class="Button2">Read More</button></a>
+                    </div>
+                    <div class="Photo4">
+                        <img src="Singing.jpg" alt="Artist" width="100%" height="100%">
+                    </div>
+                    <div class="BlackDiv1">
+                      <div class="BlackDivContent1">
+                              <h2>Singing & <br> <span class="Dance">Dance</span> </h2>
+                      </div>
+                    <a href="Classes.html"> <button class="Button2">Read More</button></a> 
+                    </div>
+
+    </div>
+
+    <div class="FooterSection">
+
+                    <div class="ContactUs">
+                        <h3>CONTACT US</h3>
+                    </div>
+                    <div class="MyAddress">
+                        <h5>14 Phoenix Street Mumbai 400027 India</h5>
+                        <h5>Tel:123-456-789/Fax:111-444-995</h5>
+                    </div>
+                    <div class="Credit">
+                        <h5>© 2020 by Behind The Mask.Created By <span class="Satyam">Satyam Vhadgar</span>  </h5>
+                    </div>
+                    <div class="OpeningHours">
+                          <h3>OPENING HOURS</h3>
+                    </div>
+                    <div class="OpningTime">
+                      <h5>Monday - Friday: 8:30am - 7:30pm</h5>
+                      <h5>Saturday: 9:00am - 5:00pm​</h5>
+                      <h5>Sunday: 9:00am - 7:00pm</h5>
+                    </div>
+                    <div class="LogoFooter">
+                      <a href="Home.html"> <img src="BTM.png" alt="Logo"width="100%" height="100%"></a>
+                    </div>
+    </div>
+
+
+  </body>
+</html>

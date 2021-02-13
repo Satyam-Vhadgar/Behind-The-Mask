@@ -1,0 +1,391 @@
+body{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: #1D1B26;
+}
+.NavBar{
+  position: relative;
+  background: #12101B;
+  width: 100%;
+  height: 50px;
+}
+.Logo{
+  position: absolute;
+  top: -20px;
+  left: 50px;
+  width: 90px;
+  height: 90px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#12101B;
+  position: absolute;
+  left: 750px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #808080;
+  text-align: center;
+  padding: 14px 25px;
+  text-decoration: none;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+li a:hover:not(.active) {
+  color: #FE0865;
+}
+
+.active {
+  color: #FE0865;
+}
+.FirstPhotoDiv{
+  position: relative;
+  width: 100%;
+  height: 900px;
+  background: black;
+}
+.PhotoParallax{
+  background-image: url("Artist4.jpg");
+  min-height: 900px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Bigheading{
+  position: absolute;
+  bottom: 400px;
+  left: 500px;
+  font-size: 60px;
+  font-family: 'Jost', sans-serif;
+}
+.CursuieHeading{
+  position: absolute;
+  color: white;
+  bottom:380px;
+  left: 800px;
+  font-size: 40px;
+  font-family: 'Dancing Script', cursive;
+}
+.MiddleDiv{
+  position: relative;
+  width: 1100px;
+  height: 600px;
+  transform: translate(420px, -300px);
+  background: #12101B;
+}
+.mySlides {
+  display:none;
+}
+.Welcome{
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  color: white;
+  font-size: 45px;
+  font-family: 'Jost', sans-serif;
+}
+.Rectline{
+  position: absolute;
+  top: 90px;
+  left: 100px;
+  width: 100px;
+  height: 2px;
+  background: white;
+}
+.Subheading{
+  position: absolute;
+  left: 700px;
+  top: 300px;
+  color: #FE0865;
+  font-family: 'Montserrat', sans-serif;
+  word-spacing: 5px;
+  letter-spacing: 5px;
+  font-size: 20px;
+}
+.Paragraph{
+  position: absolute;
+  left: 700px;
+  top: 350px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  word-spacing: 2px;
+  line-height: 1.5;
+}
+.MiddleDivButton{
+  position: absolute;
+  left: 700px;
+  top: 500px;
+}
+.button {
+  background-color:#FE0865;
+  border: none;
+  color: white;
+  padding: 8px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius:50px;
+}
+.button:hover{
+  background-color: grey;
+}
+.button1 {
+  background-color:#D31919;
+  border: none;
+  color: white;
+  padding: 8px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius:50px;
+}
+.button1:hover{
+  background-color: white;
+  color: black;
+}
+.ThirdDiv{
+  position: relative;
+  width: 100%;
+  height: 2200px;
+  bottom: 290px;
+}
+.CursuieHeading1{
+  position: absolute;
+  left: 800px;
+  color: white;
+  font-size: 40px;
+  font-family: 'Dancing Script', cursive;
+}
+.Photo1{
+  position: absolute;
+  top: 200px;
+  left: 350px;
+  width:550px;
+  height: 450px;
+
+}
+.RedDiv{
+  position: absolute;
+  top: 600px;
+  left: 380px;
+  background-color: #D31919;
+  width: 500px;
+  height: 250px;
+}
+  .RedDivContent{
+  position: absolute;
+  left: 150px;
+  top: 20px;
+  letter-spacing: 5px;
+  line-height: 2.0;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+.EightPm{
+  position: absolute;
+  left: 60px;
+}
+.ShowName{
+  position: absolute;
+  top: 110px;
+  left: 190px;
+  color: White;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+.Arrow{
+  position: absolute;
+  top: 180px;
+  left: 230px;
+  width: 50px;
+  height: 50px;
+}
+.Photo2{
+  position: absolute;
+  top: 400px;
+  left: 950px;
+  width:550px;
+  height: 450px;
+
+}
+.PinkDiv{
+  position: absolute;
+  top: 800px;
+  left: 980px;
+  background-color: #FE0865;
+  width: 500px;
+  height: 250px;
+}
+.PinkDivContent{
+  position: absolute;
+  left: 150px;
+  top: 20px;
+  letter-spacing: 5px;
+  line-height: 2.0;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+.OurClass{
+  position: absolute;
+  top: 1100px;
+  left: 800px;
+  color: white;
+  font-size: 40px;
+  font-family: 'Dancing Script', cursive;
+}
+.Photo3{
+  position: absolute;
+  top: 1400px;
+  left: 350px;
+  width:550px;
+  height: 450px;
+
+}
+.BlackDiv{
+  position: absolute;
+  top: 1800px;
+  left: 380px;
+  background-color: #12101B;
+  width: 500px;
+  height: 250px;
+}
+.BlackDivContent{
+  position: absolute;
+  left: 150px;
+  top: 20px;
+  letter-spacing: 5px;
+  line-height: 1.8;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+.ActingClass{
+  position: absolute;
+  left: 60px;
+}
+.Button2 {
+  background-color:#FE0865;
+  border: none;
+  color: white;
+  padding: 8px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius:50px;
+  position: absolute;
+  top: 150px;
+  left: 200px;
+}
+.Button2:hover{
+  background-color: grey;
+}
+.Photo4{
+  position: absolute;
+  top: 1600px;
+  left: 950px;
+  width:550px;
+  height: 450px;
+
+}
+.BlackDiv1{
+  position: absolute;
+  top: 2000px;
+  left: 980px;
+  background-color: #12101B;
+  width: 500px;
+  height: 250px;
+}
+.BlackDivContent1{
+  position: absolute;
+  left: 180px;
+  top: 20px;
+  letter-spacing: 5px;
+  line-height: 1.8;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+.Dance{
+  position: absolute;
+  left: 20px;
+}
+.FooterSection{
+  position: relative;
+  background-color: #12101B;
+  width: 100%;
+  height: 300px;
+}
+.ContactUs{
+  position: absolute;
+  top: 50px;
+  left: 500px;
+  color:#808080;
+  letter-spacing: 5px;
+  font-family: 'Roboto', sans-serif;
+}
+.MyAddress{
+  position: absolute;
+  top: 100px;
+  left: 500px;
+  color:#808080;
+  letter-spacing: 2px;
+  font-family: 'Montserrat', sans-serif;
+}
+.OpeningHours{
+  position: absolute;
+  top: 50px;
+  left: 1300px;
+  color:#808080;
+  letter-spacing: 5px;
+  font-family: 'Roboto', sans-serif;
+}
+.OpningTime{
+  position: absolute;
+  top: 100px;
+  left: 1300px;
+  color:#808080;
+  letter-spacing: 2px;
+  font-family: 'Montserrat', sans-serif;
+}
+.Credit{
+  position: absolute;
+  top: 190px;
+  left: 500px;
+  color:#808080;
+  letter-spacing: 2px;
+  font-family: 'Montserrat', sans-serif;
+}
+.Satyam{
+  color:#FE0865;
+  font-family: 'Merienda', cursive;
+  cursor: pointer;
+}
+.Satyam:hover{
+  color:#D31919;
+}
+.LogoFooter{
+  position: absolute;
+  top: 50px;
+  left: 100px;
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+}

@@ -1,0 +1,379 @@
+body{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+
+}
+.NavBar{
+  position: relative;
+  background: #12101B;
+  width: 100%;
+  height: 50px;
+}
+.Logo{
+  position: absolute;
+  top: -20px;
+  left: 50px;
+  width: 90px;
+  height: 90px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#12101B;
+  position: absolute;
+  left: 750px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #808080;
+  text-align: center;
+  padding: 14px 25px;
+  text-decoration: none;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+li a:hover:not(.active) {
+  color: #FE0865;
+}
+
+.active {
+  color: #FE0865;
+}
+.FirstDivHeading{
+  position: relative;
+  background-color: #1D1B26;
+  width: 100%;
+  height: 500px;
+}
+.FirstContent{
+  position: absolute;
+  top: 50px;
+  left: 200px;
+  color: white;
+  font-size: 45px;
+  letter-spacing: 2px;
+  font-family: 'Roboto', sans-serif;
+}
+.MultiplePictures{
+  position: relative;
+  width: 100%;
+  height: 1000px;
+  background-color: #1D1B26;
+}
+.container {
+  position: absolute;
+  left: 30px;
+  top: 50px;
+  width: 600px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #FE0865;
+  cursor: pointer;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+}
+.container1 {
+  position: absolute;
+  left: 650px;
+  top: 50px;
+  width: 600px;
+}
+
+.image1 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay1 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #FE0865;
+  cursor: pointer;
+}
+
+.container1:hover .overlay1 {
+  opacity: 1;
+}
+
+.text1 {
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+}
+
+.container2 {
+  position: absolute;
+  left: 1270px;
+  top: 50px;
+  width: 600px;
+}
+
+.image2 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #FE0865;
+  cursor: pointer;
+}
+
+.container2:hover .overlay2 {
+  opacity: 1;
+}
+
+.text2 {
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+}
+.container3 {
+  position: absolute;
+  left: 30px;
+  top: 500px;
+  width: 600px;
+}
+
+.image3 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay3 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #FE0865;
+  cursor: pointer;
+}
+
+.container3:hover .overlay3 {
+  opacity: 1;
+}
+
+.text3 {
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+}
+.container4 {
+  position: absolute;
+  left: 650px;
+  top: 500px;
+  width: 600px;
+}
+
+.image4 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay4 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #FE0865;
+  cursor: pointer;
+}
+
+.container4:hover .overlay4 {
+  opacity: 1;
+}
+
+.text4 {
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+}
+.container5 {
+  position: absolute;
+  left: 1270px;
+  top: 500px;
+  width: 600px;
+}
+
+.image5 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay5 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #FE0865;
+  cursor: pointer;
+}
+
+.container5:hover .overlay5 {
+  opacity: 1;
+}
+
+.text5 {
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+}
+.FooterSection{
+  position: relative;
+  background-color: #12101B;
+  width: 100%;
+  height: 300px;
+}
+.ContactUs{
+  position: absolute;
+  top: 50px;
+  left: 500px;
+  color:#808080;
+  letter-spacing: 5px;
+  font-family: 'Roboto', sans-serif;
+}
+.MyAddress{
+  position: absolute;
+  top: 100px;
+  left: 500px;
+  color:#808080;
+  letter-spacing: 2px;
+  font-family: 'Montserrat', sans-serif;
+}
+.OpeningHours{
+  position: absolute;
+  top: 50px;
+  left: 1300px;
+  color:#808080;
+  letter-spacing: 5px;
+  font-family: 'Roboto', sans-serif;
+}
+.OpningTime{
+  position: absolute;
+  top: 100px;
+  left: 1300px;
+  color:#808080;
+  letter-spacing: 2px;
+  font-family: 'Montserrat', sans-serif;
+}
+.Credit{
+  position: absolute;
+  top: 190px;
+  left: 500px;
+  color:#808080;
+  letter-spacing: 2px;
+  font-family: 'Montserrat', sans-serif;
+}
+.Satyam{
+  color:#FE0865;
+  font-family: 'Merienda', cursive;
+  cursor: pointer;
+}
+.Satyam:hover{
+  color:#D31919;
+}
+.LogoFooter{
+  position: absolute;
+  top: 50px;
+  left: 100px;
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+}

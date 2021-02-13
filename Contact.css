@@ -1,0 +1,206 @@
+body{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+
+}
+.NavBar{
+  position: relative;
+  background: #12101B;
+  width: 100%;
+  height: 50px;
+}
+.Logo{
+  position: absolute;
+  top: -20px;
+  left: 50px;
+  width: 90px;
+  height: 90px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#12101B;
+  position: absolute;
+  left: 750px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #808080;
+  text-align: center;
+  padding: 14px 25px;
+  text-decoration: none;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+li a:hover:not(.active) {
+  color: #FE0865;
+}
+
+.active {
+  color: #FE0865;
+}
+.ColorDiv{
+  position: relative;
+  width: 100%;
+  height: 1000px;
+  background-color: #1D1B26;
+}
+.Contact{
+  position: absolute;
+  top: 200px;
+  left: 300px;
+  width: 1300px;
+  height: 700px;
+  background-color: #12101B;
+}
+.Content{
+  position: absolute;
+  top: 150px;
+  left: 100px;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 25px;
+  letter-spacing: 2px;
+}
+.Content p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+
+}
+.FormSection{
+  position: absolute;
+  left:700px;
+  top:300px;
+}
+input[type=text] {
+  width: 250px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid white;
+  background-color: #12101B;
+}
+.Email{
+position:absolute;
+top:8px;
+left:300px;
+
+}
+.Phone{
+position:absolute;
+width:50%;
+background-color: #12101B;
+}
+input[type=number] {
+  width: 550px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid white;
+  background-color: #12101B;
+}
+textarea {
+  width: 550px;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid white;
+  background-color: #12101B;
+  font-size: 16px;
+  resize: none;
+}
+.button1 {
+  background-color:#DE095B;
+  border: none;
+  color: white;
+  padding: 8px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius:50px;
+  font-family: 'Montserrat', sans-serif;
+}
+.button1:hover{
+  background-color: #D10D0D;
+  color: white;
+}
+::placeholder {
+  color: White;
+}
+
+.FooterSection{
+  position: relative;
+  background-color: #12101B;
+  width: 100%;
+  height: 300px;
+}
+.ContactUs{
+  position: absolute;
+  top: 50px;
+  left: 500px;
+  color:#808080;
+  letter-spacing: 5px;
+  font-family: 'Roboto', sans-serif;
+}
+.MyAddress{
+  position: absolute;
+  top: 100px;
+  left: 500px;
+  color:#808080;
+  letter-spacing: 2px;
+  font-family: 'Montserrat', sans-serif;
+}
+.OpeningHours{
+  position: absolute;
+  top: 50px;
+  left: 1300px;
+  color:#808080;
+  letter-spacing: 5px;
+  font-family: 'Roboto', sans-serif;
+}
+.OpningTime{
+  position: absolute;
+  top: 100px;
+  left: 1300px;
+  color:#808080;
+  letter-spacing: 2px;
+  font-family: 'Montserrat', sans-serif;
+}
+.Credit{
+  position: absolute;
+  top: 190px;
+  left: 500px;
+  color:#808080;
+  letter-spacing: 2px;
+  font-family: 'Montserrat', sans-serif;
+}
+.Satyam{
+  color:#FE0865;
+  font-family: 'Merienda', cursive;
+  cursor: pointer;
+}
+.Satyam:hover{
+  color:#D31919;
+}
+.LogoFooter{
+  position: absolute;
+  top: 50px;
+  left: 100px;
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+}

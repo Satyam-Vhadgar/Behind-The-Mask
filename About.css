@@ -1,0 +1,184 @@
+body{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: #1D1B26;
+}
+.NavBar{
+  position: relative;
+  background: #12101B;
+  width: 100%;
+  height: 50px;
+}
+.Logo{
+  position: absolute;
+  top: -20px;
+  left: 50px;
+  width: 90px;
+  height: 90px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#12101B;
+  position: absolute;
+  left: 750px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #808080;
+  text-align: center;
+  padding: 14px 25px;
+  text-decoration: none;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+li a:hover:not(.active) {
+  color: #FE0865;
+}
+
+.active {
+  color: #FE0865;
+}
+.FirstDiv{
+  position: relative;
+  background-color: #12101B;
+  width: 1300px;
+  height: 800px;
+  left: 300px;
+  top: 150px;
+  z-index: 1;
+}
+.AboutHeading{
+  position: absolute;
+  top: 50px;
+  left: 150px;
+  font-size: 35px;
+  color: white;
+  word-spacing: 5px;
+  letter-spacing: 2px;
+  font-family: 'Roboto', sans-serif;
+}
+.AboutContent{
+  position: absolute;
+  left: 150px;
+  top: 300px;
+  text-align: justify;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  word-spacing: 3px;
+}
+.button {
+  background-color:#FE0865;
+  border: none;
+  color: white;
+  padding: 8px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius:50px;
+  font-family: 'Montserrat', sans-serif;
+}
+.button:hover{
+  background-color: grey;
+}
+
+.FirstPictureDiv{
+  position: relative;
+  width: 100%;
+  height: 800px;
+  background-color: #080808;
+}
+.OurTeam{
+  position: relative;
+  width:100%;
+  height: 300px;
+  background-color: #1D1B26;
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  margin: 100px 0 0 0;
+  letter-spacing: 2px;
+  line-height: 1.5;
+}
+.SecondPictureDiv{
+  position: relative;
+  height: 800px;
+  left: 300px;
+  width: 1300px;
+
+}
+.FooterSection{
+  position: relative;
+  background-color: #12101B;
+  top:200px;
+  width: 100%;
+  height: 300px;
+}
+.ContactUs{
+  position: absolute;
+  top: 50px;
+  left: 500px;
+  color:#808080;
+  letter-spacing: 5px;
+  font-family: 'Roboto', sans-serif;
+}
+.MyAddress{
+  position: absolute;
+  top: 100px;
+  left: 500px;
+  color:#808080;
+  letter-spacing: 2px;
+  font-family: 'Montserrat', sans-serif;
+}
+.OpeningHours{
+  position: absolute;
+  top: 50px;
+  left: 1300px;
+  color:#808080;
+  letter-spacing: 5px;
+  font-family: 'Roboto', sans-serif;
+}
+.OpningTime{
+  position: absolute;
+  top: 100px;
+  left: 1300px;
+  color:#808080;
+  letter-spacing: 2px;
+  font-family: 'Montserrat', sans-serif;
+}
+.Credit{
+  position: absolute;
+  top: 190px;
+  left: 500px;
+  color:#808080;
+  letter-spacing: 2px;
+  font-family: 'Montserrat', sans-serif;
+}
+.Satyam{
+  color:#FE0865;
+  font-family: 'Merienda', cursive;
+  cursor: pointer;
+}
+.Satyam:hover{
+  color:#D31919;
+}
+.LogoFooter{
+  position: absolute;
+  top: 50px;
+  left: 100px;
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+}

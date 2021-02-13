@@ -1,0 +1,44 @@
+Nav Bar
+font name:Noto Sans
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+font-family: 'Noto Sans', sans-serif;
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+
+
+Main Title or Heading of Website
+font name:Jost
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap" rel="stylesheet">
+font-family: 'Jost', sans-serif;
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+
+little Sub Heading Cursuie
+
+font name:Dancing Script 
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+font-family: 'Dancing Script', cursive;
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+
+Website All Main Headig Except Main Title or Heading of Website
+
+font name:Roboto
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+font-family: 'Roboto', sans-serif;
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+
+All Paragraphs
+font name:Montserrat
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+font-family: 'Montserrat', sans-serif;
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+
+Site Name:
+Behind the Mask
